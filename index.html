@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tor Aphisak — Digital Media &amp; Marketing</title>
+<meta name="description" content="Aphisak “Tor” Shingthorn — Digital Media &amp; Marketing. Motion graphics, video editing, graphic design, web design &amp; build, and Google Ads campaigns.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+
+<header class="nav">
+  <a class="logo" href="#hero" aria-label="Tor Aphisak, home"><span>T</span><i></i><span>R</span><i class="dot"></i><small>APHISAK</small></a>
+  <ul class="links">
+    <li><a href="#services" data-for="services">Skills</a></li>
+    <li><a href="#work" data-for="work">Work</a></li>
+    <li><a href="#about" data-for="about">About</a></li>
+    <li><a href="#contact" data-for="contact">Contact</a></li>
+  </ul>
+  <a class="pill" href="#contact">Hire me</a>
+</header>
+
+<div class="hud" aria-hidden="true">
+  <div class="scrollcue" id="cue"><b></b>SCROLL</div>
+  <div class="count"><span id="cnum">01</span> <em>/ 07</em></div>
+</div>
+<div class="rail" aria-hidden="true"><b id="railfill"></b></div>
+
+<main>
+  <section id="hero" class="wrap" data-bg="#3A5BEF" data-ink="#FFFFFF" data-dot="#FF6A2B" data-btn="#F4E04D">
+    <div class="hero-copy">
+      <p class="status"><i></i>OPEN TO WORK · ON-SITE / HYBRID / REMOTE</p>
+      <p class="kicker">“Tor” Aphisak Shingthorn — Digital Media &amp; Marketing</p>
+      <h1 class="display"><span><b>One person.</b></span><span><b>The <em>whole</em></b></span><span><b>channel.</b></span></h1>
+      <p class="lead">I handle the whole digital channel — <b>motion graphics, video editing, graphic design, website design and build, and Google Ads campaigns.</b> One person, from the first frame to the final click.</p>
+      <div class="chips hero-skills"><span class="chip">Motion graphics</span><span class="chip">Video editing</span><span class="chip">Graphic design</span><span class="chip">Web design &amp; build</span><span class="chip">Google Ads</span></div>
+      <div class="btns">
+        <a class="cta" href="#work">Watch showreel
+          <svg viewBox="0 0 18 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M0 6h16M11 1l5 5-5 5"/></svg></a>
+        <a class="cta ghost" href="https://vimeo.com/740988503" target="_blank" rel="noopener">Introduce myself</a>
+      </div>
+    </div>
+    <div class="hero-stage" id="hstage" aria-hidden="true"></div>
+  </section>
+
+  <section id="manifesto" data-bg="#3A5BEF" data-ink="#FFFFFF" data-dot="#FF6A2B" data-btn="#F4E04D">
+    <div class="pin wrap">
+      <p class="eyebrow"><span class="n">(02)</span> What I believe </p>
+      <h2 class="display manifest" id="manifest">Every brand starts as a simple shape. I give it motion, a home online and a reason for people to click.</h2>
+      <div class="chain"><span>MOTION</span><i></i><span>VIDEO</span><i></i><span>DESIGN</span><i></i><span>WEB</span><i></i><span>ADS</span></div>
+    </div>
+  </section>
+
+  <section id="services" data-bg="#FF6A2B" data-ink="#FFFFFF" data-dot="#F4D84A" data-btn="#F4E04D">
+    <div class="pin wrap">
+      <p class="eyebrow"><span class="n">(03)</span> My Role and Responsibilities</p>
+      <h2 class="display">Digital media &amp; marketing</h2>
+      <div class="cards">
+        <article class="card" data-i="0"><span class="lt">A</span><div class="slot"></div><h3>Motion graphics &amp; animation</h3>
+          <p>Engaging motion content for product and marketing teams — from creative storyboard to final render.</p>
+          <div class="chips"><span class="chip">After Effects</span><span class="chip">Storyboard</span><span class="chip">Animation</span></div>
+          <button class="plus" aria-label="Show tools for motion graphics" aria-expanded="false"></button></article>
+        <article class="card" data-i="1"><span class="lt">B</span><div class="slot"></div><h3>Video &amp; digital media</h3>
+          <p>Advertising and online-media video, edited in Premiere Pro, with photography and design built in.</p>
+          <div class="chips"><span class="chip">Premiere Pro</span><span class="chip">Advertising</span><span class="chip">Photography</span><span class="chip">Live Streaming</span></div>
+          <button class="plus" aria-label="Show tools for video" aria-expanded="false"></button></article>
+        <article class="card" data-i="2"><span class="lt">C</span><div class="slot"></div><h3>Graphic &amp; UX/UI design</h3>
+          <p>Key visuals, layouts and UX/UI design, plus 3D modelling and animation when a project needs depth.</p>
+          <div class="chips"><span class="chip">Illustrator</span><span class="chip">Figma</span><span class="chip">Maya / Blender</span></div>
+          <button class="plus" aria-label="Show tools for design" aria-expanded="false"></button></article>
+        <article class="card" data-i="3"><span class="lt">D</span><div class="slot"></div><h3>Web &amp; Google Ads</h3>
+          <p>Designing and building websites, then running Google Ads campaigns — headlines, descriptions and creatives that send the right people there.</p>
+          <div class="chips"><span class="chip">Wix</span><span class="chip">Site updates</span><span class="chip">Google Ads</span><span class="chip">Ad copy</span></div>
+          <button class="plus" aria-label="Show tools for web and ads" aria-expanded="false"></button></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="wrap" data-bg="#F5EFE6" data-ink="#121212" data-dot="#FF6A2B" data-btn="#F4E04D">
+    <div class="proj-head">
+      <div>
+        <p class="eyebrow"><span class="n">(04)</span> More work</p>
+        <h2 class="display">Projects</h2>
+      </div>
+      <div class="pfilter" id="pfilter" role="group" aria-label="Filter projects">
+        <button type="button" class="on" data-f="all" aria-pressed="true">All</button>
+        <button type="button" data-f="Video" aria-pressed="false">Video</button>
+        <button type="button" data-f="Motion Graphics" aria-pressed="false">Motion Graphics</button>
+        <button type="button" data-f="Web &amp; Ads" aria-pressed="false">Web &amp; Ads</button>
+        <button type="button" data-f="UX/UI" aria-pressed="false">UX/UI</button>
+      </div>
+    </div>
+    <div class="pgrid" id="pgrid"></div>
+  </section>
+
+  <section id="about" class="wrap" data-bg="#121212" data-ink="#F5EFE6" data-dot="#FF6A2B" data-btn="#F4E04D">
+    <div class="about-top">
+      <div class="photo"><img id="photo" alt="Portrait of Aphisak “Tor” Shingthorn" src="assets/tor.png"><span>OPEN TO WORK </span></div>
+      <div>
+        <p class="eyebrow"><span class="n">(05)</span> About me</p>
+        <h2 class="display">Hi, I'm <em>Tor.</em></h2>
+        <div class="bio">
+          <p>Digital media and marketing all-rounder with 10 years in online media. I started in motion graphics and animation, and today I run the whole channel — video, graphic design, websites and Google Ads campaigns.</p>
+          <p>I hold a Bachelor's degree in Animation, Interactive Technology, Video Graphics and Special Effects from Chiang Mai University, and I'm now studying for a Master's in Engineering and Technology (AI) at Panyapiwat Institute of Management.</p>
+        </div>
+        <div class="chips"><span class="chip">Thai — native</span><span class="chip">English — working proficiency (C1 level)</span></div>
+        <a class="cta li-btn" href="https://www.linkedin.com/in/tor-aphisak-b72720169/" target="_blank" rel="noopener">View LinkedIn profile
+          <svg viewBox="0 0 18 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M0 6h16M11 1l5 5-5 5"/></svg></a>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>10 yrs</b><span>in motion, video &amp; online media</span></div>
+      <div class="stat"><b>2</b><span>LinkedIn recommendations</span></div>
+    </div>
+
+    <div class="quotes">
+      <figure class="quote"><blockquote>“Tor is a very skilled Motion Graphics Designer… he made a lot of great and engaging content for the product and marketing team. He is a fast learner and always accepts any challenge you give him.”</blockquote>
+        <figcaption><b>Victor Ipsen Wolthers</b> · Co-founder, managed Tor directly at Anyday</figcaption></figure>
+      <figure class="quote"><blockquote>“An extremely skilful and dedicated motion graphic designer… a highly responsible team player with whom no deadlines were ever missed.”</blockquote>
+        <figcaption><b>Nikita Skachkov</b> · UX/UI Designer, worked with Tor on the same team</figcaption></figure>
+    </div>
+
+    <div class="cols">
+      <div>
+        <p class="sub">Experience</p>
+        <ul class="xp">
+          <li><b>Senior Digital Media</b><time>Jul 2023 – Aug 2026</time><span>Language Training Center Co., Ltd. · Full-time · Bangkok · Hybrid</span></li>
+          <li><b>Motion Graphic Designer</b><time>Aug 2022 – Dec 2022</time><span>Anyday.io · Full-time</span></li>
+          <li><b>Animator</b><time>Jun 2020 – Sep 2022</time><span>Animation.mu · Full-time</span></li>
+          <li><b>Motion Graphic Designer</b><time>Mar 2019 – Jun 2022</time><span>CM-Telecom · Chiang Mai</span></li>
+          <li><b>Motion Graphic Designer</b><time>Sep 2016 – Jun 2022</time><span>VSI Group · Chiang Mai</span></li>
+        </ul>
+      </div>
+      <div>
+        <p class="sub">Education — still learning</p>
+        <div class="edu">
+          <article class="now"><div class="top"><span>Aug 2026 – Present</span><span class="tag">IN PROGRESS</span></div>
+            <h4>Panyapiwat Institute of Management</h4><p class="th">สถาบันการจัดการปัญญาภิวัฒน์ (PIM)</p>
+            <p>Master's degree · Engineering and Technology</p>
+            <div class="chips" style="margin-top:10px"><span class="chip">Artificial Intelligence (AI)</span><span class="chip">Python</span></div></article>
+          <article><div class="top"><span>2013 – 2016</span><span class="tag done">GRADUATED</span></div>
+            <h4>Chiang Mai University</h4><p class="th">มหาวิทยาลัยเชียงใหม่</p>
+            <p>Bachelor's degree · Animation, Interactive Technology, Video Graphics and Special Effects</p>
+            <div class="chips" style="margin-top:10px"><span class="chip">Design</span><span class="chip">Animation</span></div></article>
+        </div>
+      </div>
+    </div>
+
+    <div class="tools">
+      <p class="sub">Software</p>
+      <div class="tgrid">
+        <div class="tg"><h5>Video editing</h5><ul><li><i>Pr</i>Premiere Pro</li><li><i>Cc</i>CapCut</li></ul></div>
+        <div class="tg"><h5>Motion graphics</h5><ul><li><i>Ae</i>After Effects</li></ul></div>
+        <div class="tg"><h5>Graphic &amp; photo</h5><ul><li><i>Ps</i>Photoshop</li><li><i>Ai</i>Illustrator</li><li><i>Id</i>InDesign</li><li><i>Lr</i>Lightroom</li><li><i>Ca</i>Canva</li></ul></div>
+        <div class="tg"><h5>3D</h5><ul><li><i>Ma</i>Maya</li><li><i>Bl</i>Blender</li></ul></div>
+        <div class="tg"><h5>Web, UX/UI &amp; ads</h5><ul><li><i>Fg</i>Figma</li><li><i>Xd</i>Adobe XD</li><li><i>Wx</i>Wix</li><li><i>Ads</i>Google Ads</li></ul></div>
+        <div class="tg"><h5>Streaming</h5><ul><li><i>OBS</i>OBS Studio</li></ul></div>
+      </div>
+      <p class="sub" style="margin-top:28px">AI tools</p>
+      <div class="ai">
+        <span><i></i>ChatGPT <small>scripts &amp; ideas</small></span>
+        <span><i></i>Gemini <small>research &amp; copy</small></span>
+        <span><i></i>Claude AI <small>writing &amp; planning</small></span>
+        <span><i></i>Google Flow <small>AI video</small></span>
+        <span><i></i>Google Antigravity <small>AI-assisted building</small></span>
+        <span><i></i>Seedance 2.0 <small>AI video generation</small></span>
+        <span><i></i>Manus AI <small>AI agent tasks</small></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="wrap" data-bg="#F4D84A" data-ink="#121212" data-dot="#FF6A2B" data-btn="#121212">
+    <p class="eyebrow"><span class="n">(06)</span> How I work</p>
+    <h2 class="display">From brief to live campaign</h2>
+    <div class="steps">
+      <div class="step"><div class="ic a"></div><h3>Brief</h3><p>Understand the goal, the audience and which channels will carry it.</p></div>
+      <div class="step"><div class="ic b"></div><h3>Create</h3><p>Storyboards, key visuals and scripts to agree on direction.</p></div>
+      <div class="step"><div class="ic c"></div><h3>Build</h3><p>Edit and animate the videos, design the pages, write the ads — with clear review rounds.</p></div>
+      <div class="step"><div class="ic d"></div><h3>Launch</h3><p>Publish everywhere, run the Google Ads campaign, then track and tune.</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap" data-bg="#3A5BEF" data-ink="#FFFFFF" data-dot="#FF6A2B" data-btn="#F4E04D">
+    <p class="eyebrow"><span class="n">(07)</span> Let's talk</p>
+    <div class="contact-head"><h2 class="display">Need one person for the whole channel?</h2><div class="stage" id="stage" aria-hidden="true"></div></div>
+    <div class="contact-row">
+      <p>Open to Digital Media &amp; Marketing roles — motion, video, design, web and Google Ads — on-site, hybrid or remote.</p>
+      <div class="reach">
+        <div><span><small>EMAIL</small><span class="val">dc.tor44@gmail.com</span></span><button class="copy" type="button">Copy</button></div>
+        <div><span><small>PHONE</small><span class="val">080-499-45-26</span></span><button class="copy" type="button">Copy</button></div>
+      </div>
+    </div>
+    <footer><span>© 2026 Aphisak “Tor” Shingthorn</span><span>dc.tor44@gmail.com</span></footer>
+  </section>
+</main>
+
+<script src="main.js"></script>
+<script type="module" src="scene.js"></script>
+</body>
+</html>
