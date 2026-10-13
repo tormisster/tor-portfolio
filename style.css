@@ -346,3 +346,9 @@ html.lb-open{overflow:hidden}
 .logo .lname small{margin-left:0}
 @media (max-width:760px){.logo .lname{display:none}}
 
+
+/* Download CV button in the contact section */
+.cv-col p{margin:0 0 22px}
+.cta.cv-btn svg{width:14px;height:16px}
+.cta.cv-btn:hover svg{transform:translateY(2px)}
+.cta.cv-btn svg{transition:transform .2s}
