@@ -345,3 +345,4 @@ html.lb-open{overflow:hidden}
 .logo .lname{display:flex;align-items:baseline;gap:10px;margin-left:10px;font-size:17px;font-weight:800;letter-spacing:.08em}
 .logo .lname small{margin-left:0}
 @media (max-width:760px){.logo .lname{display:none}}
+
