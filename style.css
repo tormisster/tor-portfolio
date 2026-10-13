@@ -2,9 +2,10 @@
 :root{
   --blue:#3A5BEF; --orange:#FF6A2B; --cream:#F5EFE6; --black:#121212; --navy:#141A5C; --yellow:#F4D84A; --coral:#FFB09A;
   --bg:var(--blue); --ink:#FFFFFF; --dot:#FF6A2B; --btn:#F4E04D; --btn-ink:#121212;
-  --display:'Anton','Impact','Haettenschweiler','Arial Narrow Bold',sans-serif;
-  --body:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
-  --mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace;
+  /* Thai characters fall back to Kanit; English keeps Anton / Manrope / JetBrains Mono */
+  --display:'Anton','Kanit','Impact','Haettenschweiler','Arial Narrow Bold',sans-serif;
+  --body:'Manrope','Kanit',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'JetBrains Mono','Kanit',ui-monospace,'SFMono-Regular',Menlo,monospace;
   --gutter:clamp(16px,6vw,96px);
   color-scheme:light;
 }
@@ -336,3 +337,11 @@ html.lb-open{overflow:hidden}
 @keyframes lbin{from{opacity:0}}
 @keyframes lbzoom{from{transform:scale(.92);opacity:0}}
 @media (max-width:640px){.lightbox .lbprev,.lightbox .lbnext{position:absolute;bottom:14px}.lightbox .lbprev{left:calc(50% - 60px)}.lightbox .lbnext{right:calc(50% - 60px)}}
+
+/* nav logo: same mark as the browser-tab icon; colours follow each section (ink square, background-coloured T) */
+.logo .mark{width:36px;height:36px;flex:none;display:block}
+.logo .mk-bg{fill:var(--ink);transition:fill .5s}
+.logo .mk-t{fill:var(--bg);transition:fill .5s}
+.logo .lname{display:flex;align-items:baseline;gap:10px;margin-left:10px;font-size:17px;font-weight:800;letter-spacing:.08em}
+.logo .lname small{margin-left:0}
+@media (max-width:760px){.logo .lname{display:none}}

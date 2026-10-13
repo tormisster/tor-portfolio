@@ -31,7 +31,7 @@
     {cat:'Motion Graphics',client:'',title:'Introduce Myself',desc:'A short video introducing who I am and how I work.',
      role:'Concept, filming, editing and motion graphics',tools:'Premiere Pro, After Effects',tone:'dark',thumb:'assets/tor-cover.jpg',link:'https://vimeo.com/740988503'},
     {cat:'Motion Graphics',client:'',title:'Showreel',desc:'Highlights of my motion graphics work from every company I have worked with.',
-     role:'Selected and edited highlights from each company',tools:'',tone:'orange',thumb:'assets/showreel.jpg',link:'https://drive.google.com/file/d/1KlhL80CMcq-zHFfS66GPaNlpdVe_se2H/view'},
+     role:'Selected and edited highlights from each company',tools:'',tone:'orange',thumb:'assets/showreel.jpg',link:'https://vimeo.com/562443442'},
     {cat:'Motion Graphics',client:'',title:'Christmas',desc:'A Christmas campaign video made for social media.',
      role:'Concept, storyboard, editing and social media posting',tools:'',tone:'light',thumb:'assets/christmas.jpg',link:'https://drive.google.com/file/d/1OzFpAEGEgPTgJJAHw4qSiPRdgmh0H6fz/view'},
     {cat:'Motion Graphics',client:'',title:'FIKS IT (LED Advertising)',desc:'A motion ad designed for LED billboard screens.',
